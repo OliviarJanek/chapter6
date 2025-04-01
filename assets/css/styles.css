@@ -15,7 +15,10 @@ body{
 	color:whitesmoke;
 	font-size: 5rem;
 	overflow:hidden;
-	background: url("assets/img/flames.gif") no-repeat center cover;
+	background: url("assets/img/flames.gif");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
 }
 
 .grid-container{
