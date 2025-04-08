@@ -23,7 +23,9 @@
 	<script>
 		let rotation = 0;
 		document.addEventListener("click", function(){
-			rotation += 5;
+			let min = 10;
+			let max = 40;
+			rotation += Math.random() * (max-min) + min;
 			document.body.style.transform = `rotate(${rotation}deg)`;
 		}, 100)
 	</script>
